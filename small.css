@@ -1,0 +1,154 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.header
+{
+    height: 50px;
+    width: 100%;
+    background-color: black;   
+    position:fixed;
+
+}
+.header a
+{
+    display: none;
+}
+.header w
+{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    padding-top:15px ;
+    
+    
+}
+#open-logo
+{
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: auto;
+}
+.slidebar
+{
+
+    height: 100vh;
+    display: inline-block;
+    overflow-x: hidden;
+    width: 0;
+    position: fixed;
+    background-color: black;
+    top:50px;
+    z-index:0;
+    transition:0.7s;
+}
+.slidebar a
+{
+    display: block;
+    color: white;
+    font-size: 20px;
+    right: 50%;
+    text-decoration: none;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+#close-logo
+{
+   background-color: black;
+   color: white;
+   font-size:20px ;
+   border: 1px solid black;
+   float: right;
+   padding: 2px;
+   transition:0.4s;
+   
+}
+.slidebar a:hover
+{
+    color: grey;
+}
+#close-logo:hover{
+    color:red;
+}
+.main-flex-container-1
+{   
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.box-1
+{
+
+  width: 4vw;
+  height: 20vw;
+  flex-grow: 1;
+}
+.box-1 > img
+{
+    width: 27vw;
+    height: 20vw;
+}
+.box-2
+{
+    width: 4vw;
+    height: 20vw;
+  background-color: red;
+  flex-grow: 1;
+
+
+}
+.box-2 > img
+{
+    width: 27vw;
+    height: 20vw;
+}
+.box-3
+{
+    width: 4vw;
+    height: 20vw;
+  background-color: red;
+  flex-grow: 1;
+}
+.box-3 > img
+{
+    width: 27vw;
+    height: 20vw;
+}
+.box-4
+{
+    width: 4vw;
+    height: 20vw;
+  background-color: red;
+  flex-grow: 1;
+
+}
+.box-4 > img
+{
+    width: 27vw;
+    height: 20vw;
+}
+
+.main-flex-container-2
+{
+   
+    display: flex;
+    flex-wrap:row;
+    border: 2px solid black;
+    width: auto;
+    justify-content:flex-start;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: 18px;   
+
+}
+.about
+{
+    text-decoration: none;
+    font-size: 16px;
+}
